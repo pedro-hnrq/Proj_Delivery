@@ -26,7 +26,7 @@
 ![Proj_Deliver_FinalizarPedido_02](https://user-images.githubusercontent.com/74242717/180455904-9ab16167-b6bd-4706-96f3-03bdf3436a38.png)
 ![Proj_Deliver_RealizadoSucesso](https://user-images.githubusercontent.com/74242717/180455989-c93fe825-9b12-46b1-aa6e-616bc78d1b6f.png)
 
-<h3 align="right">05</h3>
+<h3>05</h3>
 <p>Na tela de Administração, será gerenciado os pedidos, definir as categorias e os cupom de desconto. Ressaltando, que poderá definir um usuário com alguns privilégio para gerenciar.</p>
 <p align="right">127.0.0.1:8000/admin/login/?next=/admin/</p>
 
