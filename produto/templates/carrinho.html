@@ -1,0 +1,58 @@
+{%extends 'base.html'%}
+
+{% load filtros %}
+
+
+{% block 'conteudo'%}
+<br>
+<br>
+<div class="container">
+<table class="table table-striped">
+    <thead >
+      <tr class="table-danger">
+        <th>Imagem</th>
+        <th>Produto</th>
+        <th>QTD.</th>
+        <th>Sub total</th>
+        <th>Remover</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for j, i in dados|enumerate%}
+      <tr>
+        <th><img src="{{i.imagem}}" width="50px"></th>
+        <td>{{i.nome}}</td>
+        <td>{{i.quantidade}}</td>
+        <td>{{i.preco}}0</td>
+        <td><a href="{% url 'remover_carrinho' j%}" class="btn btn-danger">Remover</a></td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+  <h3>Frete: R${{frete}}0</h3>
+  <h1 class="titulo">Total: </h1>
+  <h2 style="color: gray;">&nbsp R${{total}}0</h2>
+  
+  <a href="{% url 'finalizar_pedido' %}" id= button_f class="btn btn-success">Finalizar compra</a>
+  <a href="{% url 'home'%}" class="btn btn-primary">Continuar comprando</a>
+</div>
+<style>
+  #button_f{
+    display: inline-block;
+    text-decoration: none;
+    
+  }
+  #button_f:hover{
+      animation: pulsate 2s ease-in-out;
+  }
+
+  @keyframes pulsate {
+      0%{
+          box-shadow: 
+          0 0 25px #5ddcff,
+          0 0 50px #4e00c2;
+      }
+      
+  }
+</style>
+{%endblock%}
