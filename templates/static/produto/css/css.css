@@ -3,13 +3,16 @@
     font-size: 220%;
     font-family: 'EB Garamond', serif;
     font-family: 'Lobster', cursive;
+    position: right;
 }
+
 
 #car{
     
     font-family: 'EB Garamond', serif;
     font-family: 'Lobster', cursive;
     font-family: 'Roboto Slab', serif;
+    position: right;
 }
 #cat{
     text-align: right;
@@ -17,6 +20,7 @@
     font-family: 'Lobster', cursive;
     font-family: 'Roboto Slab', serif;
 }
+
 .dropdown-item{
     text-align: center;
     font-family: 'EB Garamond', serif;
@@ -25,7 +29,11 @@
 }
 .corBorda{
     text-align: center;
-    background-color: #ecc5c7;
+    background: rgb(131,58,180);
+    background: -moz-linear-gradient(275deg, rgba(131,58,180,1) 0%, rgba(236,197,197,1) 45%, rgba(252,176,69,1) 100%);
+    background: -webkit-linear-gradient(275deg, rgba(131,58,180,1) 0%, rgba(236,197,197,1) 45%, rgba(252,176,69,1) 100%);
+    background: linear-gradient(275deg, rgba(131,58,180,1) 0%, rgba(236,197,197,1) 45%, rgba(252,176,69,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);
     
 }
 
@@ -89,8 +97,8 @@ body{
 
 .cont img {
     max-width: 100%;
-    -moz-transition: all 2s;
-    -webkit-transition: all 2s;
+    -moz-transition: all 3s;
+    -webkit-transition: all 3s;
     transition: all 2s;
   }
 
