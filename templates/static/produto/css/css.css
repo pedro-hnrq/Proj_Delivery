@@ -1,32 +1,3 @@
-#ti{
-    
-    font-size: 220%;
-    font-family: 'EB Garamond', serif;
-    font-family: 'Lobster', cursive;
-    position: right;
-}
-
-
-#car{
-    
-    font-family: 'EB Garamond', serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Roboto Slab', serif;
-    position: right;
-}
-#cat{
-    text-align: right;
-    font-family: 'EB Garamond', serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Roboto Slab', serif;
-}
-
-.dropdown-item{
-    text-align: center;
-    font-family: 'EB Garamond', serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Roboto Slab', serif;
-}
 .corBorda{
     text-align: center;
     background: rgb(131,58,180);
@@ -57,7 +28,7 @@ font-size: 60px;
 .bordaBottom{
 
 border-bottom: 1px solid gray;
-padding-bottom: 20px;
+padding-bottom: 60px;
 
 }
 

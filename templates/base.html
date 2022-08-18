@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="{% static 'css/base.css' %}" >
     <link rel="stylesheet" href="{% static 'produto/css/css.css' %}" >
     <script src="{% static 'pedido/js/js.js' %}"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -21,15 +22,15 @@
 
     {% endblock %}
     <title>Doces e Mimos AS</title>
-    <link rel="icon" href="{% static 'img/d_m_AS.png' %}">
+    <link rel="icon" href="{% static 'img/LOGO_.png' %}">
   </head>
   <body>
 
     
     <nav class="navbar navbar-expand-lg navbar-light corBorda">
-      {% load static %}  
-        <!---<img src="{% static 'img/d_m_AS.png' %}" class="log" alt="Doces e Mimos AS" >-->
-        <a id="ti" class="navbar-brand" href="{% url 'home'%}">Doces e Mimos AS</a>
+      {% load static %}
+
+        <a class="log_" href="{% url 'home'%}"><img src="{% static 'img/Log_Completa.png' %}"  class="log_" alt="Doces e Mimos AS" ></a>
           
 
         

@@ -1,0 +1,24 @@
+.log_{
+    position: relative;
+    width: 390px;
+    height: 90px;
+}
+#car{
+    color: rgb(239, 194, 214);
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
+    position: right;
+}
+#cat{
+    text-align: right;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
+}
+.dropdown-item{
+    text-align: center;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Slab', serif;
+}
