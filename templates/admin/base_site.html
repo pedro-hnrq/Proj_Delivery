@@ -1,8 +1,12 @@
 {% extends 'admin/base.html' %}
 {% load static %}
+    {% block title %} Doces e Mimos AS{% endblock %}
 
-{% block branding %}
-    
+    {% block 'head' %}
+    <link rel="icon" href="{% static 'img/LOGO_.png' %}">
+    {% endblock %}
+
+{% block branding %}   
     
     <img src="{% static '/img/LOGO_.png' %}" class="log"  alt="Doces e Mimos AS" >
     

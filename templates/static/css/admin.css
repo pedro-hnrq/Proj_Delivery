@@ -1,9 +1,4 @@
-#branding h1,
-#branding h1 a,
-#branding h1 a:link,
-#branding h1 a:visited {
-    color: #FFFFFF;
-}
+
 .log{
     position: static;
     width: 85px;
