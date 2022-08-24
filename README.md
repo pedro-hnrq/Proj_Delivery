@@ -1,5 +1,5 @@
 <h1 align="center"> Projeto Delivery </h1>
-<h2 align="center">#Skills: Python, Django, HTML5, CSS3, JavaScript, BootStrap 4 e Git</h2>
+<h2 align="center">#Skills: Python, Django, HTML5, CSS3, JavaScript, BootStrap 4 e Git </h2>
 
 <h3>01</h3>
 <p>O projeto consistem em 2(duas) categoria entre Bolos e Doces, ou ambos que o usuário poderá comprar.</p>
