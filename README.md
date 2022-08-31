@@ -1,5 +1,11 @@
 <h1 align="center"> Projeto Delivery </h1>
-<h2 align="center">Ferramantas: Python, Django, HTML, CSS e JavaScript</h2>
+<h2 align="center">Skills: <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=gree"/>  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=whitehttps://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>  <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/></h2>
+
+<h2 align="center"> Prévia <h2>
+  
+  
+ ![Proj_Delivery](https://user-images.githubusercontent.com/74242717/186435318-7f6b4ce2-642a-4dfb-8612-68ecacef3ae8.gif)
+
 
 <h3>01</h3>
 <p>O projeto consistem em 2(duas) categoria entre Bolos e Doces, ou ambos que o usuário poderá comprar.</p>
@@ -45,7 +51,7 @@
 ![Admin_Pedido](https://user-images.githubusercontent.com/74242717/185613922-4c6638bf-5c3a-4aa0-a0af-21c5cc8cc649.png)
 
 <h3>Conclusão</h3>
-<p>O Projeto Delivery encontra em constate atualizações. Portanto, falta implementa login, relatório usando o dashboard e o pagamento Cartão de Crédito.</p>
+<p>O Projeto Delivery encontra em constate atualizações. Portanto, falta implementa o login, relatório das vendas (usando o dashboard) e o pagamento Cartão de Crédito.</p>
 
 
 
