@@ -46,7 +46,7 @@
 
 ![Admin_Log_1](https://user-images.githubusercontent.com/74242717/185613574-f6cb3466-e200-4673-a453-ddaedea16be0.png)
 
-<p align="right">http://127.0.0.1:8000/admin/pedido/pedido/</p>
+<p align="right">127.0.0.1:8000/admin/pedido/pedido/</p>
 
 ![Admin_Pedido](https://user-images.githubusercontent.com/74242717/185613922-4c6638bf-5c3a-4aa0-a0af-21c5cc8cc649.png)
 
