@@ -1,6 +1,7 @@
 from django.db import models
-from datetime import datetime
+# from datetime import datetime
 from produto.models import Produto
+from django.utils import timezone
 
 class CupomDesconto(models.Model):
     codigo = models.CharField(max_length=8, unique=True)
@@ -19,7 +20,7 @@ class Pedido(models.Model):
     cupom  = models.ForeignKey(CupomDesconto, null=True, blank=True, on_delete=models.CASCADE)
     pagamento = models.CharField(max_length=20)
     ponto_referencia = models.CharField(max_length=2000, blank=True)
-    data = models.DateTimeField(default=datetime.now())
+    data = models.DateTimeField(default=timezone.now)
     cep = models.CharField(max_length=50, blank=True)
     rua = models.CharField(max_length=200)
     numero = models.CharField(max_length=10)
